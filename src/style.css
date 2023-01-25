@@ -1,0 +1,218 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 0.75rem;
+  text-align: center;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: rgb(255, 255, 255);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+    text-transform: uppercase;
+  }
+}
+
+header {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-image: url("/src/images/ezgif-5-5eb44f55ba.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20rem 0;
+  margin-bottom: 5rem;
+}
+
+.bg-video {
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+  z-index: -1;
+  max-height: 60vh;
+}
+
+main {
+  margin-bottom: 5rem;
+}
+
+a {
+  color: rgba(255, 255, 255);
+  transition: all 0.2s linear;
+}
+
+a:hover {
+  color: rgb(165, 21, 21);
+}
+
+.titles {
+  display: block;
+  text-align: center;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+#jail {
+  background-image: url("/src/images/jail.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#life {
+  background-image: url("/src/images/life.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#death {
+  background-image: url("/src/images/death.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#guides p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.packages-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.packages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #ffffff solid;
+  width: 25vw;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.packages:hover {
+  background-color: rgba(165, 21, 21, 0.305);
+  cursor: pointer;
+}
+
+.guides-container,
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.guides {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 26rem;
+  height: 20rem;
+  border-radius: 15px;
+  margin-bottom: 5rem;
+}
+
+.big {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 26rem;
+  height: 20rem;
+  border-radius: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+#castelo img {
+  width: auto;
+  height: 79.5px;
+}
+
+p.description {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.guides h4 {
+  margin-top: 2rem;
+  color: rgb(165, 21, 21);
+}
+
+#ac img {
+  width: auto;
+  height: 10rem;
+}
+
+#code-for-all img {
+  width: auto;
+  height: 8rem;
+}
